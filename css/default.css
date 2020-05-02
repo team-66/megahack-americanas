@@ -35,6 +35,25 @@ a {
 
 /* */
 
+/* CSS Grid */
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+    text-align: center;
+    margin: 75px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* */
+
 /* Navbar */
 
 .nav-wrapper {
@@ -158,35 +177,16 @@ a {
 
 /* */
 
-/* CSS Grid */
-
-main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 50px;
-    text-align: center;
-    margin: 75px;
-}
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-/* */
-
 
 /* Outros */
 
-footer {
+/*footer {
     text-align: center;
     font-size: 13px;
     width: 100%;
     height: 35px;
     background: #eaeaea;
-}
+}*/
 
 /* */
 
