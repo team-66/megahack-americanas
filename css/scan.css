@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 
-/* Fundo */ 
+/* Fundo */
 
 .body-overlay {
     position: absolute;
@@ -12,24 +12,24 @@
     z-index: -1;
 }
 
-.body-overlay img{
+.body-overlay img {
     position: fixed;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.overlay{
+.overlay {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
 
 /* */
 
-section{
+section {
     display: grid;
     grid-template-columns: auto;
     justify-content: start;
@@ -47,7 +47,7 @@ section{
     position: absolute;
     width: 50px;
     height: 50px;
-    padding: 35px;
+    padding: 25px;
     margin-top: -25px;
     margin-left: -25px;
     background: #e20413;
@@ -62,12 +62,14 @@ section{
     transition: .3s;
 }
 
-.circle-text{
+.circle-text {
     position: absolute;
     margin-top: -15px;
-    margin-left: 50px;
+    margin-left: 40px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
+    visibility: hidden;
+    transition: visibility .5s;
 }
 
 .circle-content {
@@ -78,7 +80,7 @@ section{
 }
 
 .circle-content {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .other-circles {
@@ -90,32 +92,42 @@ section{
 .other-circles-active {
     opacity: 1;
     transition: .5s;
-  }
-  
-  .other-circles-active .circle {
-    transition: .5s;
-  }
-  
-  .other-circles-active .circle1{
-    transform: translateY(100px);
-  }
-  .other-circles-active .circle2{
-    transform: translateY(200px);
-  }
-  .other-circles-active .circle3{
-    transform: translateY(300px);
-  }
-  .other-circles-active .circle4{
-    transform: translateY(400px);
+}
 
-  }
-  .other-circles-active .circle5{
-    transform: translateY(500px);
-  }
-  .other-circles-active .circle6{
-    transform: translateY(600px);
-  }
-  
+.other-circles-active .circle-text {
+    visibility: visible;
+    transition: visibility 0s;
+}
+
+.other-circles-active .circle {
+    transition: .5s;
+}
+
+.other-circles-active .circle1 {
+    transform: translateY(75px);
+}
+
+.other-circles-active .circle2 {
+    transform: translateY(150px);
+}
+
+.other-circles-active .circle3 {
+    transform: translateY(225px);
+}
+
+.other-circles-active .circle4 {
+    transform: translateY(300px);
+}
+
+.other-circles-active .circle5 {
+    transform: translateY(375px);
+}
+
+.other-circles-active .circle6 {
+    transform: translateY(450px);
+}
+
+
 
 .main-circle {
     z-index: 1;
@@ -151,4 +163,3 @@ section{
 }
 
 /* */
-
