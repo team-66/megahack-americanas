@@ -21,14 +21,14 @@ a {
     text-decoration: none;
 }
 
-.red-header{
+.red-header {
     padding: 15px 0;
     border-radius: 75px;
     color: #fff;
     background-color: #e20413;
 }
 
-.red-header h1{
+.red-header h1 {
     font-size: 2.3rem;
     margin-bottom: 10px;
 }
@@ -45,7 +45,7 @@ main {
     margin: 75px;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
