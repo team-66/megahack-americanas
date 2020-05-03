@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box; /*faz com que o padding dos elementos sejam anexados na sua altura e largura e não somados*/
+}
+
+.total-produtos {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto; /*centraliza*/
+
+    display: flex;
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+}
+
+.total-produtos section.content {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 60px;
+}
+
+.total-produtos img {
+    border-radius: 10%;
+}
+
+.total-produtos section.content h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+    margin-bottom:24px;
+}
+
+.total-produtos section.content ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px; /*distancia uma coluna da outra*/
+    list-style: none; /*tirar bolinhas da lista*/
+}
+
+.total-produtos section.content ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.total-produtos section.content ul li p + strong {
+    margin-top: 32px;
+}
+
+.total-produtos section.content form {
+    margin-top: 26px;
+    display: flex;
+}
+
+.total-produtos section.content form b {
+    display: flex;
+}
+
+.total-produtos section.content a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.total-produtos section.content a svg {
+    margin-right: 8px;
+    size: 16;
+    color: #e02041;
+}
+
+.total-produtos section.content a:hover {
+    opacity: 0.8;
+}
+
+body {
+    font: 400 14px Sans-Serif; /*sem ponto depois da letra*/
+    -webkit-font-smoothing: antialiased; /*melhora o visual da font*/
+    background: #f0f0f5;
+}
+
+input,button, textarea { /*por padrão não pega o css do body*/ 
+    font: 400 18px Sans-Serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    width: 60%;
+    height: 60px;
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s; /*quando o mouser passar por cima do botão mudar em tantos milésimos de segundos*/
+    margin-left: 08px; /*separar um pouco pela direita*/
+}
+
+
+.btn:hover {
+    filter: brightness(90%);
+}
