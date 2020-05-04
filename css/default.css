@@ -7,6 +7,7 @@
     vertical-align: baseline;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* */
@@ -15,10 +16,6 @@
 
 body {
     background-color: #eaeaea;
-}
-
-a {
-    text-decoration: none;
 }
 
 .red-header {
