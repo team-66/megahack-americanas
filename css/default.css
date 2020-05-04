@@ -18,6 +18,10 @@ body {
     background-color: #eaeaea;
 }
 
+a{
+    color: #fff;
+}
+
 .red-header {
     padding: 15px 0;
     border-radius: 75px;
