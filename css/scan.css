@@ -40,13 +40,32 @@ section {
     justify-content: end;
 }
 
-/* Botao Circular */
+/* Botoes */
 
 .circles-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
+.help-button{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: underline;
+    display: none;
+}
+
+.help-button:hover{
+    cursor: pointer;
+}
+
+.help-button-show{
+    display: block;
+}
+
 
 .circle {
     position: absolute;
@@ -67,7 +86,7 @@ section {
     transition: .5s;
 }
 
-.show-text { /* Div que possui icone e texto */
+.circle-all { /* Div que possui icone e texto */
     display: grid;
     justify-content: right;
 }
@@ -78,7 +97,12 @@ section {
     font-weight: bold;
     font-size: 20px;
     visibility: hidden;
-    transition: visibility .5s;
+    transition: visibility 0s;
+}
+
+.circle-text-show{
+    visibility: visible;
+    transition: visibility 0s;
 }
 
 .circle-content { /* Icone */
@@ -127,11 +151,6 @@ section {
 .other-circles-active {
     opacity: 1;
     transition: .5s;
-}
-
-.other-circles-active .circle-text {
-    visibility: visible;
-    transition: visibility 0s;
 }
 
 .other-circles-active .circle {
