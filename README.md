@@ -1,5 +1,5 @@
-# megahack-americanas
-Repositório com a solução da Equipe 66 para o Mega Hack 2º Edição - Desafio Universo Americanas / B2W
+# Mega Hack 2º Edição - Desafio Universo Americanas / B2W
 
-Link
-https://team-66.github.io/megahack-americanas/
+**Importante**: o projeto foi desenvolvido seguindo a metodologia **_Mobile First_**, e sua visualização em dispositivos maiores pode estar comprometida.
+
+[Link](https://team-66.github.io/megahack-americanas/)
