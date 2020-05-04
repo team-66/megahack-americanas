@@ -11,15 +11,37 @@
     margin-bottom: 10px;
 }
 
-.my-slider div{
-    height: 200px;
-    margin: 15px;
-    color: #fff;
-    background: #e20413;
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
 }
 
-section i{
-    color: #e20413;
+.buttons button{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    background: #e20413;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s; /*quando o mouser passar por cima do botão mudar em tantos milésimos de segundos*/
+}
+
+.buttons button:hover {
+    background: #990916;
 }
 
 @media only screen and (max-width: 768px) {
